@@ -42,10 +42,7 @@ public class RecordService {
                 }
             }
         } catch (IOException e) {
-            // Handle exceptions, log errors, or throw custom exceptions
             e.printStackTrace();
-            // You can create a custom exception class for better error handling
-            // Example: throw new CustomRecordProcessingException("Error processing records", e);
         }
     }
 }
