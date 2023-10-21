@@ -17,7 +17,6 @@ public class CompanyRecord {
     private LocalDate eventDate;
     private String uniqueIdentifier;
 
-    // Constructors
     public CompanyRecord() {
     }
 
@@ -29,7 +28,6 @@ public class CompanyRecord {
         this.uniqueIdentifier = uniqueIdentifier;
     }
 
-    // Getters and setters
     public Long getId() {
         return id;
     }
